@@ -1,0 +1,23 @@
+{
+  "name": "json-movie",
+  "version": "1.0.0",
+  "description": "fake movie api",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laiml/movie-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laiml/movie-api/issues"
+  },
+  "homepage": "https://github.com/laiml/movie-api#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
